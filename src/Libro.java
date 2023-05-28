@@ -71,15 +71,4 @@ public class Libro {
         this.categoria = categoria;
     }
 
-    @Override
-    public String toString() {
-        return "Libro{" +
-                "titulo='" + titulo + '\'' +
-                ", autor='" + autor + '\'' +
-                ", genero='" + genero + '\'' +
-                ", isbn='" + isbn + '\'' +
-                ", precio=" + precio +
-                ", categoria='" + categoria + '\'' +
-                '}';
-    }
 }
